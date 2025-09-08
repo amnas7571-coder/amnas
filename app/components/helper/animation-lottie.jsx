@@ -1,6 +1,9 @@
-"use client"
+"use client";
 
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
+
+// Ensure lottie-react is only loaded in the browser
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const AnimationLottie = ({ animationPath, width }) => {
   const defaultOptions = {
