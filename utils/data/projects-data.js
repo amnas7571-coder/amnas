@@ -49,6 +49,16 @@ export const projectsData = [
     code: '',
     demo: '',
   },
+  {
+    id: 6,
+    name: 'Trace & Anchor',
+    description:
+      'File-securing blockchain app aligned with European regs: embeds SHA‑256 metadata, anchors fingerprints on-chain, and issues timestamped certificates with TXID + QR verification.',
+    tools: ['Blockchain', 'SHA-256', 'Metadata embedding', 'QR verification'],
+    role: 'Full Stack Developer',
+    code: '',
+    demo: 'https://www.traceandanchor.com/',
+  },
 ];
 
 
